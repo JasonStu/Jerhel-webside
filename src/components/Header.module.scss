@@ -1,0 +1,22 @@
+@import '@/styles/function.scss';
+@import '@/styles/variables.scss';
+.header {
+	width: 100%;
+	height: get-vh(100px);
+	// max-height: 100px;
+	background: rgba($primaryColor, 0.86);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 80px 0 60px;
+	.logo {
+		width: get-vh(128px);
+		// max-width: 128px;
+		cursor: pointer;
+	}
+	.menu {
+		width: get-vh(80px);
+		// max-width: 80px;
+		cursor: pointer;
+	}
+}
